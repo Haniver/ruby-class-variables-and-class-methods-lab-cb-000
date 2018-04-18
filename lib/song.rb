@@ -40,5 +40,6 @@ class Song
     @@artists.each do |artist|
       artists_hash.has_key?(artist) ? artists_hash[artist] += 1 : artists_hash[artist] = 1
     end
+    artists_hash
   end
 end
